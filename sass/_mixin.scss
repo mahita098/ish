@@ -1,0 +1,26 @@
+
+// Responsive
+
+@mixin small {
+    @media (min-width:#{$small}) {
+        @content;
+    }
+}
+
+@mixin medium {
+    @media (min-width:#{$medium}) {
+        @content;
+    }
+}
+
+@mixin mini-laptop {
+    @media (min-width:#{$mini-laptop}) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media (min-width:#{$laptop}) {
+        @content;
+    }
+}
